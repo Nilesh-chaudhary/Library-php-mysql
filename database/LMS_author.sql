@@ -36,7 +36,7 @@ CREATE TABLE `author` (
 
 LOCK TABLES `author` WRITE;
 /*!40000 ALTER TABLE `author` DISABLE KEYS */;
-INSERT INTO `author` VALUES (3,'Jay Prakash'),(4,'Jay Prakash'),(5,'x'),(6,'a1'),(7,'Bogart'),(7,'Kenneth'),(8,'Auer'),(8,'Davil J.'),(9,'Rob'),(9,'Williams'),(10,'Deiteil'),(11,'Sharma'),(12,'Barney Stinson'),(13,'Puri'),(14,'Manna'),(15,'Jindal U.C'),(16,'Prasad'),(17,'Aravind Alex'),(17,'Haldar Sibsankar'),(18,'Sandhu'),(18,'Singh');
+INSERT INTO `author` VALUES (3,'Jay Prakash'),(4,'Jay Prakash'),  (7,'Sharma'), (8,'Aravind Alex'),(8,'Haldar Sibsankar'),(9,'Sandhu'),(10,'Singh');
 /*!40000 ALTER TABLE `author` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
